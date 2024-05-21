@@ -15,6 +15,9 @@
 #### Javascript
 
 ##### Seletores
+    id     -- 
+    tags   -- body, div, p, h1, input, button, head, section, main, span, strong, hr, br
+    classe -- btn, btn-primary
 
 ##### Mostrar informacao
 
