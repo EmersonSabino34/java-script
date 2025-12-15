@@ -1,39 +1,45 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula-01</title>
 </head>
+ 
 <body>
-   <h1 class="btn bg-primary m-5 p-5" id="titulo" > Titulo 1  </h1> 
-   <h2 class="n..."                   id="titulo2"> Titulo 2  </h2>
-   <span>eu sou um span</span>
 
-   <style>
-    /** tag */
-        h1{
+  <h1 id="titulo">Título 1</h1>
+  <h2 id="titulo2">Título 2</h2>
+  <span id="texto">Eu sou um span</span>
 
-        }
-        h2{
+  <div class="box">
+    <p>Abrir o <strong>console</strong> para ver os resultados.</p>
+  </div>
 
-        }
-        span{
+  <script>
+    // ===============================
+    // AULA 01 - JAVASCRIPT BÁSICO
+    // ===============================
 
-        }
-   </style>
+    // Selecionando elementos do DOM
+    var titulo1 = document.getElementById('titulo')
+    var titulo2 = document.querySelector('#titulo2')
+    var span = document.querySelector('#texto')
 
-   <script>
-        // alert('Resultado ' + 75 * 79)
-        // alert(document.getElementById('titulo'))
-        // console.log(document.getElementById('titulo'))
+    console.log('Título 1:', titulo1)
+    console.log('Título 2:', titulo2)
+    console.log('Span:', span)
 
-        // var, let, const criar uma variavel
-        var titulo1 = document.getElementById('titulo') // selecionar por id
-        var titulo2 = document.querySelector('#titulo') // selecionar por id
-        var span = document.querySelector('span')    // selecionar elemento tag
+    // Evento de clique no h1
+    titulo1.addEventListener('click', function () {
+      titulo1.innerText = 'Título clicado!'
+      titulo1.style.background = '#16a34a'
+    })
 
-        console.log(titulo2)
-   </script>
+    // Evento de clique no span
+    span.addEventListener('click', function () {
+      alert('Você clicou no span!')
+      span.innerText = 'Texto alterado com JS'
+    })
+
+    // Exemplo de cálculo
+    var resultado = 75 * 79
+    console.log('Resultado do cálculo:', resultado)
+  </script>
+
 </body>
 </html>
