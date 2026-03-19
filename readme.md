@@ -84,6 +84,5 @@ Desenvolvedor Full Stack
 
 💻 JavaScript | React | Next.js | Tailwind | HTML | CSS
 
----
 
 
