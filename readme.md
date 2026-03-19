@@ -43,7 +43,6 @@ Tudo isso utilizando **apenas tecnologias nativas da web**, sem frameworks.
  ┣ 📄 index.html   # Estrutura, estilos e scripts
  ┗ 📄 README.md    # Documentação do projeto
 ```
-
 ---
 
 ## ▶️ Como Executar
