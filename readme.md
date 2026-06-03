@@ -3,7 +3,6 @@ Projeto educacional desenvolvido para **introdução à manipulação do DOM**, 
 
 
 
-
 ---
 
 ## 🎯 Objetivo do Projeto
