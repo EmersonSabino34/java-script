@@ -2,7 +2,6 @@
 Projeto educacional desenvolvido para **introdução à manipulação do DOM**, uso básico de **HTML**, **CSS** e **JavaScript puro**, ideal para iniciantes em desenvolvimento web.
 
 
-
 ---
 
 ## 🎯 Objetivo do Projeto
